@@ -12,22 +12,6 @@ class AsistenciaTableSeed extends Seeder
      */
     public function run()
     {
-        DB::Table('asistencia') -> insert([
-            'nombre' => 'Asistió',
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now(),
-        ]);
-
-        DB::Table('asistencia') -> insert([
-            'nombre' => 'Pendiente',
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now(),
-        ]);
-
-        DB::Table('asistencia') -> insert([
-            'nombre' => 'Faltó',
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now(),
-        ]);
+        
     }
 }
